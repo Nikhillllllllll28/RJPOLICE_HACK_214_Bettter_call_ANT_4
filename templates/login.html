@@ -142,14 +142,14 @@ button{
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form method="POST" action="/login">
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username">
+        <input type="text" placeholder="Email or Phone" id="username" name="username" required>
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password" name="password" required>
 
        <a href="main.html"><button>Log In</button></a> 
         <div class="social">
